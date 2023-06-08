@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ModsHomeComponent {
 
+  modalOpen = false;
+
+  onClick() {
+    this.modalOpen = !this.modalOpen;
+  }
+
 }
